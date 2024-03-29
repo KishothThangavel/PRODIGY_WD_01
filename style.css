@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #dadada;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+    display: flex;
+    align-items: center;    
+    justify-content:space-between;
+    background: #131921;
+    padding: 10px 20px;
+    color: #fff;
+}
+/* ------------------------Delivery to Uk -----------------------*/
+.nav-country{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #c4c4c4;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.nav-country h1{
+    color: #fff;
+    font-size: 15px;
+}
+.nav-country p{
+    margin-left: 27px;
+} 
+/* ------------------------Delivery to Uk -----------------------*/
+
+/* ------------------------Search Bar--------------------------- */
+
+.nav-search{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: gray;
+    border-radius: 4px;
+    margin-left: 15px;
+    max-width: 1000px;
+}
+.nav-search-category{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 5px;
+    background: #e5e5e5;
+    border-radius: 4px 0 0 4px;
+}
+.nav-search-input{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    width: 100%;
+}
+.nav-search-icon{
+    max-width:40px;
+    padding: 8px;
+    background: #ffd64f;
+    border-radius: 0 4px 4px 0;
+}
+/* ------------------------Search Bar--------------------------- */
+
+/* -----------------------Remaining Nav bar---------------------- */
+.nav-language{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+.nav-text{
+    margin-left: 15px;
+}
+.nav-text p{
+    font-size: 13px;
+    margin-right: 10px;
+}
+.nav-text h1{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+/* -----------------------Remaining Nav bar---------------------- */
+
+/* <!-- -----------------------Bottom Navigation Bar------------> */
+
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    background: #232f3e;
+    color: #fff;
+    font-size: 15px;
+    gap: 20px;
+}
+.nav-bottom div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500px;
+}
+/* <!-- -----------------------Bottom Navigation Bar----------------> */
+
+/* ----------------------------Images & sidebar---------------------- */
+.header-slider ul{
+   display: flex;
+   /* overflow-y: hidden; */
+}
+.header-img{
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
+}
+.header-slider a{
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    padding: 40px 10px;
+    background: #ffffff4f;
+    color: rgba(0,0,0,0.9);
+    cursor: pointer;
+    /* text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;*/
+} 
+.control_next{
+    right: 0;
+}
+/* ----------------------------Images & sidebar------------------------ */
+
+/* <!-------------------------Lower background image -----------------> */
+.box-row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content:space-between;
+    margin: 20px 30px;
+}
+.box-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 20px;
+    background: #fff;
+    /* max-width: 350px; */
+    max-width: 24%;
+    min-width: 200px;
+    z-index: 1;
+}
+.box-column a{
+    color: #009999;
+    font-size: 15px;
+    font-weight: 600;
+}
+.header-box{
+    margin-top: -20vw;
+}
+/* <!-------------------------Lower background image -----------------> */
+
+/* <!------------------------ Product Slider ---------------------------> */
